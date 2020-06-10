@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_home"
+                android:title="Harita"
+
+        >
+
+        </item>
+        <item
+                android:id="@+id/nav_eye"
+                android:icon="@drawable/ic_eye"
+                android:title="İzlediklerim"
+        />
+        <item
+                android:id="@+id/nav_activities"
+                android:icon="@drawable/ic_activities"
+                android:title="Etkinlikler"
+        />
+        <item
+                android:id="@+id/nav_notifications"
+                android:icon="@drawable/ic_priority_high"
+                android:title=" Bildirimler"
+        />
+
+    </group>
+
+<!--    <group >-->
+<!--        <item-->
+<!--                android:id="@+id/nav_settings"-->
+<!--                android:icon="@drawable/ic_settings"-->
+<!--                android:title="Settings"/>-->
+<!--    </group>-->
+</menu>

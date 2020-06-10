@@ -1,0 +1,1 @@
+C:\Users\Danil\IdeaProjects\map_project\app\src\androidTest\java\com\example\map_project\ExampleInstrumentedTest.kt
