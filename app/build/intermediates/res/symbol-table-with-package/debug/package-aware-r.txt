@@ -909,6 +909,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color selected_icon_color
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -1350,6 +1351,8 @@ drawable design_snackbar_background
 drawable ic_account
 drawable ic_account_32dp
 drawable ic_activities
+drawable ic_arrow_24dp
+drawable ic_arrow_back_24dp
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_close
@@ -1759,6 +1762,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout arrows
+layout back_arrows
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

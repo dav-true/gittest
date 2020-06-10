@@ -1104,6 +1104,10 @@
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\drawable\\btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
     },
     {
+        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\layout_arrows.xml.flat",
+        "source": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\src\\main\\res\\layout\\arrows.xml"
+    },
+    {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_text.xml.flat",
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\467ba8ea1befa739b4edc01cbf7efcc5\\material-1.1.0\\res\\layout\\design_layout_tab_text.xml"
     },
@@ -1244,6 +1248,10 @@
         "source": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\layout_back_arrows.xml.flat",
+        "source": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\src\\main\\res\\layout\\back_arrows.xml"
+    },
+    {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_off_mtrl_ring_outer_animation.xml.flat",
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\anim\\btn_radio_to_off_mtrl_ring_outer_animation.xml"
     },
@@ -1298,6 +1306,10 @@
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_24dp.xml.flat",
+        "source": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\src\\main\\res\\drawable\\ic_arrow_24dp.xml"
     },
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -1874,6 +1886,10 @@
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_vector_test.xml.flat",
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\ea7da9e95f409afb7acca5abc0f0f17a\\appcompat-resources-1.1.0\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_back_24dp.xml.flat",
+        "source": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\src\\main\\res\\drawable\\ic_arrow_back_24dp.xml"
     },
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",

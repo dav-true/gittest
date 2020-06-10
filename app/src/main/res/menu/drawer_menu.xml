@@ -16,6 +16,7 @@
                 android:id="@+id/nav_eye"
                 android:icon="@drawable/ic_eye"
                 android:title="İzlediklerim"
+                android:actionLayout="@layout/back_arrows"
         />
         <item
                 android:id="@+id/nav_activities"
@@ -26,6 +27,7 @@
                 android:id="@+id/nav_notifications"
                 android:icon="@drawable/ic_priority_high"
                 android:title=" Bildirimler"
+
         />
 
     </group>

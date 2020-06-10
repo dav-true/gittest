@@ -35,7 +35,6 @@
     <!--            android:layout_height="match_parent"/>-->
 
     <com.google.android.material.navigation.NavigationView
-            android:paddingTop="33dp"
 
             android:id="@+id/nav_view"
             android:layout_width="240dp"
