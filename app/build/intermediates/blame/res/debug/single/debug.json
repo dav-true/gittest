@@ -256,12 +256,12 @@
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_month_navigation.xml.flat",
-        "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\467ba8ea1befa739b4edc01cbf7efcc5\\material-1.1.0\\res\\layout\\mtrl_calendar_month_navigation.xml"
-    },
-    {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_month_navigation.xml.flat",
+        "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\467ba8ea1befa739b4edc01cbf7efcc5\\material-1.1.0\\res\\layout\\mtrl_calendar_month_navigation.xml"
     },
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_linear_out_slow_in.xml.flat",
@@ -1924,6 +1924,10 @@
         "source": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\src\\main\\res\\drawable\\ic_close.xml"
     },
     {
+        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_eye_pink.xml.flat",
+        "source": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\src\\main\\res\\drawable\\ic_eye_pink.xml"
+    },
+    {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_reflow_chipgroup.xml.flat",
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\467ba8ea1befa739b4edc01cbf7efcc5\\material-1.1.0\\res\\layout\\test_reflow_chipgroup.xml"
     },
@@ -1944,12 +1948,12 @@
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_show_motion_spec.xml.flat",
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\467ba8ea1befa739b4edc01cbf7efcc5\\material-1.1.0\\res\\animator\\mtrl_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_top.xml.flat",
@@ -2438,6 +2442,10 @@
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_remove_red_eye_black_24dp.xml.flat",
+        "source": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\src\\main\\res\\drawable\\ic_remove_red_eye_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",

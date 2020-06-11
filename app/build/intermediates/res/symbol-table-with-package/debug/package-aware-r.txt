@@ -910,6 +910,7 @@ color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
 color selected_icon_color
+color selected_item_background
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -1358,6 +1359,7 @@ drawable ic_clear_black_24dp
 drawable ic_close
 drawable ic_edit_black_24dp
 drawable ic_eye
+drawable ic_eye_pink
 drawable ic_home
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
@@ -1370,6 +1372,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_priority_high
+drawable ic_remove_red_eye_black_24dp
 drawable ic_settings
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
@@ -1579,7 +1582,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
 id nav_activities
-id nav_eye
+id nav_main
 id nav_map
 id nav_notifications
 id nav_settings
@@ -2378,6 +2381,7 @@ style ThemeOverlay_AppCompat_DayNight_ActionBar
 style ThemeOverlay_AppCompat_Dialog
 style ThemeOverlay_AppCompat_Dialog_Alert
 style ThemeOverlay_AppCompat_Light
+style ThemeOverlay_AppCompat_navTheme
 style ThemeOverlay_Design_TextInputEditText
 style ThemeOverlay_MaterialComponents
 style ThemeOverlay_MaterialComponents_ActionBar

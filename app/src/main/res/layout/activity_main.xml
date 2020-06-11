@@ -26,6 +26,14 @@
                 android:elevation="4dp">
 
         </androidx.appcompat.widget.Toolbar>
+        <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Hafıza Mekanları"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
 
     </LinearLayout>
 
@@ -40,16 +48,17 @@
             android:layout_width="240dp"
             android:layout_height="match_parent"
             android:layout_gravity="start"
+            android:theme="@style/ThemeOverlay.AppCompat.navTheme"
             app:headerLayout="@layout/nav_header"
             app:menu="@menu/drawer_menu"
-            >
+    >
         <ImageView
                 android:id="@+id/close_btn"
                 android:layout_marginLeft="11dp"
                 android:src="@drawable/ic_close"
                 android:layout_width="32dp"
                 android:layout_height="32dp"
-                />
+        />
 
 
         <Button
@@ -67,7 +76,6 @@
         >
         </Button>
     </com.google.android.material.navigation.NavigationView>
-
 
 
 </androidx.drawerlayout.widget.DrawerLayout>

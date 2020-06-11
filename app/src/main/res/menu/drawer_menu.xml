@@ -8,13 +8,12 @@
                 android:id="@+id/nav_map"
                 android:icon="@drawable/ic_home"
                 android:title="Harita"
-
         >
 
         </item>
         <item
-                android:id="@+id/nav_eye"
-                android:icon="@drawable/ic_eye"
+                android:id="@+id/nav_main"
+                android:icon="@drawable/ic_eye_pink"
                 android:title="İzlediklerim"
                 android:actionLayout="@layout/back_arrows"
         />
@@ -32,10 +31,4 @@
 
     </group>
 
-<!--    <group >-->
-<!--        <item-->
-<!--                android:id="@+id/nav_settings"-->
-<!--                android:icon="@drawable/ic_settings"-->
-<!--                android:title="Settings"/>-->
-<!--    </group>-->
 </menu>
