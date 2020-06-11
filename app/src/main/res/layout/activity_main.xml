@@ -64,6 +64,21 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+        <FrameLayout
+                android:id="@+id/map_frame"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="15dp"
+                android:background="#DCDCDC"/>
+
+            <EditText
+                    android:hint="Ara"
+                    android:textAlignment="center"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/rounded"/>
+
 
     </LinearLayout>
 

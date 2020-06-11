@@ -1,0 +1,196 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 134217728 bytes for Failed to commit area from 0x0000000081800000 to 0x0000000089800000 of length 134217728.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (c:/BuildAgent/work/5ff2f6c26000d570/src/hotspot/os/windows/os_windows.cpp:3291), pid=6992, tid=2988
+#
+# JRE version:  (11.0.5+10) (build )
+# Java VM: OpenJDK 64-Bit Server VM (11.0.5+10-b520.38, mixed mode, aot, sharing, tiered, compressed oops, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: org.jetbrains.kotlin.cli.jvm.K2JVMCompiler -Xallow-no-source-files -classpath C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-android-extensions-runtime\1.3.61\289bdf25b4886749e040c7a7d3aab8a57f85c631\kotlin-android-extensions-runtime-1.3.61.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.3.61\70dffc5f8ac5ea7c34f30deac5b9d8b1d48af066\kotlin-stdlib-jdk7-1.3.61.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\681aa837abbf09e562fb66553bb09dac\core-ktx-1.3.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.3.71\898273189ad22779da6bed88ded39b14cb5fd432\kotlin-stdlib-1.3.71.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.3.71\e71c3fef58e26affeb03d675e91fd8abdd44aa7b\kotlin-stdlib-common-1.3.71.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\467ba8ea1befa739b4edc01cbf7efcc5\material-1.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\fbbf58349f1084b8c7cf5cae8e68ad66\appcompat-1.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\654b09ffecee46cf8dfe3be470a0ac0d\jetified-play-services-maps-16.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\7bb865d64a60a7580c4030178a74f309\jetified-play-services-base-16.0.1\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\79687a691b56a88f06e7306a6f315038\jetified-play-services-tasks-16.0.1\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\a359f29e750e08acde36f9ccb1c86a64\jetified-play-services-basement-16.0.1\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\c0780b554a540d5362c74c0f757e9ed4\legacy-support-v4-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\b07fb1b2458ad8403c60ab2208e50415\legacy-support-core-ui-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\9264fb2f77177a40d3ce15c24bc88168\cursoradapter-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\6dc5c688f0154cbf43989b0e8d147165\viewpager2-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\28d92c390ad8ea68d36c1050bd5fe28f\fragment-1.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\ea7da9e95f409afb7acca5abc0f0f17a\appcompat-resources-1.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\dc1776697efbbc8cd619bf7b638a5f42\drawerlayout-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\21c2b9ee7d03e29f7e625d34cbbe6fb8\coordinatorlayout-1.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\3ed4ff3baebb68257e5c970144dcc8cb\transition-1.2.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\ae9027ee5c4e5da63c0f453eab4979b2\vectordrawable-animated-1.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\04659acbd19731c5d3f43ba42cc5da2a\vectordrawable-1.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\90d737a7d56a1eb3e332e0801b2b01c0\recyclerview-1.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\82a51c03d61751471a24affbb5d08bbb\media-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\e3a81a89fdf1c04546a88faab79e0070\legacy-support-core-utils-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\52264e48b84c2c2dd78e649ac39fe3ca\viewpager-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\bdb2be1a563aba62936a8fb6f0961351\loader-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\bae269aabe8e983f9c932eb7c001751c\activity-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\a06650a14efa1f4152c477154f0907dd\slidingpanelayout-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\e9259fda30b6a7f4570450dce7c3f517\customview-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\01fec509704e6b6a860bbc88a03b9112\swiperefreshlayout-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\ca02ed926d276a3ee52ed9795ee865a3\asynclayoutinflater-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\c347115104e033884729315f8f7dce6c\core-1.3.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\0ff0bd9082f8ed847f8763fca1126205\versionedparcelable-1.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\androidx.collection\collection\1.1.0\1f27220b47669781457de0d600849a5de0e89909\collection-1.1.0.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\0946f9fe47e915eb72eaa3e034acbb53\cardview-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\89379ba3dafbd02bc025fef671876a76\lifecycle-runtime-2.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\98bb01ff6cb478f7ede53000ce40eb37\lifecycle-viewmodel-2.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\018249a99355ec50843e7b9a6bcf8f3e\savedstate-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\78b451adfdb01c770cf24808f4e2fba1\lifecycle-livedata-2.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\9cd011bded698883ea33e2cd570913d0\lifecycle-livedata-core-2.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common\2.1.0\c67e7807d9cd6c329b9d0218b2ec4e505dd340b7\lifecycle-common-2.1.0.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\41737ee1a58ba99703dbcac20accfca6\core-runtime-2.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.1.0\b3152fc64428c9354344bd89848ecddc09b6f07e\core-common-2.1.0.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\7d97fdbfebb91d44715facb4f316b120\documentfile-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\233018bd57835c400059c998803f96df\localbroadcastmanager-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\39d37ca502a415c2dfb979fe2f0309ec\print-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\9a0cdf8466b406a03b746a85bba97700\interpolator-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\androidx.annotation\annotation\1.1.0\e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8\annotation-1.1.0.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\f8e7e0be3543471ac303aa359f20e8c5\circleimageview-3.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\bf8eb97695cf898322dba8f48798b72d\constraintlayout-1.1.3\jars\classes.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\androidx.constraintlayout\constraintlayout-solver\1.1.3\54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e\constraintlayout-solver-1.1.3.jar;C:\Users\Danil\AppData\Local\Android\Sdk\platforms\android-29\android.jar -d C:\Users\Danil\IdeaProjects\map_project\app\build\tmp\kotlin-classes\debug -Xjava-source-roots=C:\Users\Danil\IdeaProjects\map_project\app\build\generated\not_namespaced_r_class_sources\debug\r,C:\Users\Danil\IdeaProjects\map_project\app\build\generated\source\buildConfig\debug -module-name app_debug -no-jdk -no-reflect -no-stdlib -Xcommon-sources=C:\Users\Danil\IdeaProjects\map_project\app\src\main\java\com\example\map_project\MainActivity.kt -Xplugin=C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.intellij.deps\trove4j\1.0.20181211\216c2e14b070f334479d800987affe4054cd563f\trove4j-1.0.20181211.jar,C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-android-extensions\1.3.61\54ca7c214a5cd73cd887a42002266e25440097f2\kotlin-android-extensions-1.3.61.jar,C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-compiler-embeddable\1.3.61\c35c0833d5a1e3d229359758482c480306724618\kotlin-compiler-embeddable-1.3.61.jar,C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-daemon-embeddable\1.3.61\4de83e41a92c8395d89ab2e81d26b788ba163824\kotlin-daemon-embeddable-1.3.61.jar,C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-reflect\1.3.61\2e07c9a84c9e118efb70eede7e579fd663932122\kotlin-reflect-1.3.61.jar,C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-script-runtime\1.3.61\e5feb39c8de63dcbdc1154b34ca4413874231605\kotlin-script-runtime-1.3.61.jar,C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.3.61\65abb71d5afb850b68be03987b08e2c864ca3110\kotlin-stdlib-common-1.3.61.jar,C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.3.61\4702105e97f7396ae41b113fdbdc180ec1eb1e36\kotlin-stdlib-1.3.61.jar,C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar -P plugin:org.jetbrains.kotlin.android:configuration=rO0ABXeVAAAAAwAIZmVhdHVyZXMAAAABAA92aWV3cyxwYXJjZWxpemUAB3BhY2thZ2UAAAABABdjb20uZXhhbXBsZS5tYXBfcHJvamVjdAAHdmFyaWFudAAAAAEAPW1haW47QzpcVXNlcnNcRGFuaWxcSWRlYVByb2plY3RzXG1hcF9wcm9qZWN0XGFwcFxzcmNcbWFpblxyZXM= C:\Users\Danil\IdeaProjects\map_project\app\src\main\java\com\example\map_project\MainActivity.kt
+
+Host: Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz, 4 cores, 7G,  Windows 10 , 64 bit Build 17763 (10.0.17763.1158)
+Time: Thu Jun 11 18:29:36 2020 O?ieyia?y (e?oi) elapsed time: 0 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000233939e3800):  JavaThread "Unknown thread" [_thread_in_vm, id=2988, stack(0x000000fcefd00000,0x000000fcefe00000)]
+
+Stack: [0x000000fcefd00000,0x000000fcefe00000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x5dcafa]
+V  [jvm.dll+0x70e375]
+V  [jvm.dll+0x70f898]
+V  [jvm.dll+0x70ff63]
+V  [jvm.dll+0x23e238]
+V  [jvm.dll+0x5da1c4]
+V  [jvm.dll+0x5cf265]
+V  [jvm.dll+0x2fac3b]
+V  [jvm.dll+0x2fabaa]
+V  [jvm.dll+0x2faa82]
+V  [jvm.dll+0x2ff956]
+V  [jvm.dll+0x3480d3]
+V  [jvm.dll+0x3487d6]
+V  [jvm.dll+0x3481d3]
+V  [jvm.dll+0x2d5548]
+V  [jvm.dll+0x2d66e7]
+V  [jvm.dll+0x6ed237]
+V  [jvm.dll+0x6eea2c]
+V  [jvm.dll+0x355849]
+V  [jvm.dll+0x6d239e]
+V  [jvm.dll+0x3be283]
+V  [jvm.dll+0x3c0701]
+C  [jli.dll+0x5363]
+C  [ucrtbase.dll+0x21ffa]
+C  [KERNEL32.DLL+0x17974]
+C  [ntdll.dll+0x6a271]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00000233917a64f0, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x00000233939fb800 GCTaskThread "GC Thread#0" [stack: 0x000000fcefe00000,0x000000fceff00000] [id=11160]
+  0x0000023393a2b800 ConcurrentGCThread "G1 Main Marker" [stack: 0x000000fceff00000,0x000000fcf0000000] [id=4748]
+  0x0000023393a2d000 ConcurrentGCThread "G1 Conc#0" [stack: 0x000000fcf0000000,0x000000fcf0100000] [id=172]
+
+[error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffce2855c17]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x00000233939e0a90] Heap_lock - owner thread: 0x00000233939e3800
+
+Heap address: 0x0000000081800000, size: 2024 MB, Compressed Oops mode: Non-zero based: 0x0000000081800000
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff78b220000 - 0x00007ff78b22a000 	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\jbr\bin\java.exe
+0x00007ffd0c1f0000 - 0x00007ffd0c3dd000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffd0c100000 - 0x00007ffd0c1b3000 	C:\Windows\System32\KERNEL32.DLL
+0x00007ffd09170000 - 0x00007ffd09405000 	C:\Windows\System32\KERNELBASE.dll
+0x00007ffd087e0000 - 0x00007ffd088da000 	C:\Windows\System32\ucrtbase.dll
+0x00007ffcf6f00000 - 0x00007ffcf6f19000 	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\jbr\bin\jli.dll
+0x00007ffd0b600000 - 0x00007ffd0b797000 	C:\Windows\System32\USER32.dll
+0x00007ffd084b0000 - 0x00007ffd084d0000 	C:\Windows\System32\win32u.dll
+0x00007ffd09410000 - 0x00007ffd09439000 	C:\Windows\System32\GDI32.dll
+0x00007ffd08640000 - 0x00007ffd087da000 	C:\Windows\System32\gdi32full.dll
+0x00007ffd085a0000 - 0x00007ffd08640000 	C:\Windows\System32\msvcp_win.dll
+0x00007ffcf3480000 - 0x00007ffcf3497000 	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\jbr\bin\VCRUNTIME140.dll
+0x00007ffcfbc40000 - 0x00007ffcfbeb9000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1282_none_de75b6f253473c0f\COMCTL32.dll
+0x00007ffd09600000 - 0x00007ffd0969e000 	C:\Windows\System32\msvcrt.dll
+0x00007ffd0afd0000 - 0x00007ffd0b2fc000 	C:\Windows\System32\combase.dll
+0x00007ffd0b4d0000 - 0x00007ffd0b5f2000 	C:\Windows\System32\RPCRT4.dll
+0x00007ffd08520000 - 0x00007ffd0859e000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007ffd0b380000 - 0x00007ffd0b3ae000 	C:\Windows\System32\IMM32.DLL
+0x00007ffcf1fa0000 - 0x00007ffcf203d000 	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\jbr\bin\msvcp140.dll
+0x00007ffce2570000 - 0x00007ffce302b000 	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\jbr\bin\server\jvm.dll
+0x00007ffd096a0000 - 0x00007ffd09743000 	C:\Windows\System32\ADVAPI32.dll
+0x00007ffd0ae60000 - 0x00007ffd0aefe000 	C:\Windows\System32\sechost.dll
+0x00007ffd09440000 - 0x00007ffd09448000 	C:\Windows\System32\PSAPI.DLL
+0x00007ffcf26b0000 - 0x00007ffcf26b9000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ffd0b3b0000 - 0x00007ffd0b41d000 	C:\Windows\System32\WS2_32.dll
+0x00007ffd06110000 - 0x00007ffd06134000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffcfc480000 - 0x00007ffcfc48a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ffd05d80000 - 0x00007ffd05dad000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007ffd084d0000 - 0x00007ffd0851a000 	C:\Windows\System32\cfgmgr32.dll
+0x00007ffd08240000 - 0x00007ffd08251000 	C:\Windows\System32\kernel.appcore.dll
+0x00007ffd00e20000 - 0x00007ffd00e31000 	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\jbr\bin\verify.dll
+0x00007ffcfcb30000 - 0x00007ffcfcd1d000 	C:\Windows\SYSTEM32\DBGHELP.DLL
+0x00007ffcfcb00000 - 0x00007ffcfcb2a000 	C:\Windows\SYSTEM32\dbgcore.DLL
+0x00007ffd00530000 - 0x00007ffd00559000 	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\jbr\bin\java.dll
+0x00007ffd005d0000 - 0x00007ffd005e7000 	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\jbr\bin\zip.dll
+0x00007ffd06370000 - 0x00007ffd0637b000 	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\jbr\bin\jimage.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\jbr\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.1282_none_de75b6f253473c0f;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\jbr\bin\server
+
+VM Arguments:
+java_command: org.jetbrains.kotlin.cli.jvm.K2JVMCompiler -Xallow-no-source-files -classpath C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-android-extensions-runtime\1.3.61\289bdf25b4886749e040c7a7d3aab8a57f85c631\kotlin-android-extensions-runtime-1.3.61.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.3.61\70dffc5f8ac5ea7c34f30deac5b9d8b1d48af066\kotlin-stdlib-jdk7-1.3.61.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\681aa837abbf09e562fb66553bb09dac\core-ktx-1.3.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.3.71\898273189ad22779da6bed88ded39b14cb5fd432\kotlin-stdlib-1.3.71.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.3.71\e71c3fef58e26affeb03d675e91fd8abdd44aa7b\kotlin-stdlib-common-1.3.71.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\467ba8ea1befa739b4edc01cbf7efcc5\material-1.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\fbbf58349f1084b8c7cf5cae8e68ad66\appcompat-1.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\654b09ffecee46cf8dfe3be470a0ac0d\jetified-play-services-maps-16.1.0\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\7bb865d64a60a7580c4030178a74f309\jetified-play-services-base-16.0.1\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\79687a691b56a88f06e7306a6f315038\jetified-play-services-tasks-16.0.1\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\a359f29e750e08acde36f9ccb1c86a64\jetified-play-services-basement-16.0.1\jars\classes.jar;C:\Users\Danil\.gradle\caches\transforms-2\files-2.1\c0780b554a540d5362c74c0f757e9ed4\legacy-support-v4-1.0.0\jars\classes.jar;C:\Users\Danil\.gradle\cache
+java_class_path (initial): C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-compiler-embeddable\1.3.61\c35c0833d5a1e3d229359758482c480306724618\kotlin-compiler-embeddable-1.3.61.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-reflect\1.3.61\2e07c9a84c9e118efb70eede7e579fd663932122\kotlin-reflect-1.3.61.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.3.61\4702105e97f7396ae41b113fdbdc180ec1eb1e36\kotlin-stdlib-1.3.61.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-script-runtime\1.3.61\e5feb39c8de63dcbdc1154b34ca4413874231605\kotlin-script-runtime-1.3.61.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-daemon-embeddable\1.3.61\4de83e41a92c8395d89ab2e81d26b788ba163824\kotlin-daemon-embeddable-1.3.61.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.intellij.deps\trove4j\1.0.20181211\216c2e14b070f334479d800987affe4054cd563f\trove4j-1.0.20181211.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.3.61\65abb71d5afb850b68be03987b08e2c864ca3110\kotlin-stdlib-common-1.3.61.jar;C:\Users\Danil\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 3                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 1                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 4                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 1048576                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 134217728                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 2122317824                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 1048576                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5830732                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122913754                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122913754                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+     bool UseCompressedClassPointers               = true                                 {lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                                 {lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\LINQPad6;d:\george\fbi\quartus\bin;C:\ProgramData\chocolatey\bin;C:\Users\Danil\AppData\Local\Programs\Python\Python38-32;C:\Python38;C:\Python38\Scripts;C:\Program Files\nodejs\;D:\matlab\runtime\win64;D:\matlab\bin;C:\Users\Danil\google-cloud-sdk\bin;C:\Users\Danil\google-cloud-sdk.staging\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Ruby26-x64\bin;C:\Program Files (x86)\Ruby26-x64\bin;C:\Users\Danil\AppData\Local\Microsoft\WindowsApps;C:\Users\Danil\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Danil\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.4\bin;;C:\Python38;C:\Python38\Scripts;C:\Users\Danil\AppData\Roaming\npm;D:\programms\DataGrip 2019.3.1\bin;;D:\IntelliJ IDEA\IntelliJ IDEA 2019.3.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\bin;;C:\Program Files\heroku\bin;C:\Users\Danil\google-cloud-sdk\bin;C:\Users\Danil\google-cloud-sdk.staging\bin;C:\Users\Danil\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin
+USERNAME=Danil
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10 , 64 bit Build 17763 (10.0.17763.1158)
+
+CPU:total 4 (initial active 4) (2 cores per cpu, 2 threads per core) family 6 model 69 stepping 1, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, fma
+
+Memory: 4k page, system-wide physical 8095M (625M free)
+TotalPageFile size 11909M (AvailPageFile size 108M)
+current process WorkingSet (physical memory assigned to process): 9M, peak: 9M
+current process commit charge ("private bytes"): 51M, peak: 179M
+
+vm_info: OpenJDK 64-Bit Server VM (11.0.5+10-b520.38) for windows-amd64 JRE (11.0.5+10-b520.38), built on Jan 23 2020 07:58:32 by "" with MS VC++ 14.0 (VS2015)
+
+END.
