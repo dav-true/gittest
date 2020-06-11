@@ -1396,11 +1396,14 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable separator
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable user_photo
 drawable user_photo_2
+font quicksand_regular
+font quicksand_semi_bold
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1585,7 +1588,6 @@ id nav_activities
 id nav_main
 id nav_map
 id nav_notifications
-id nav_settings
 id nav_view
 id navigation_header_container
 id never
@@ -1834,7 +1836,6 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-menu bottom_nav_menu
 menu drawer_menu
 mipmap ic_launcher
 mipmap ic_launcher_round

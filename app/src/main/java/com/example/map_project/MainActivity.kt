@@ -39,14 +39,12 @@ class MainActivity : AppCompatActivity() {
         toogle.syncState()
         toolbar.setNavigationIcon(R.drawable.ic_account_32dp)
 
-
         navigation_view.menu.getItem(0).setActionView(R.layout.arrows)
         navigation_view.menu.getItem(1).setActionView(R.layout.back_arrows)
         navigation_view.menu.getItem(2).setActionView(R.layout.arrows)
         navigation_view.menu.getItem(3).setActionView(R.layout.arrows)
         navigation_view.setItemIconTintList(null);
-
-
+        navigation_view.menu.getItem(1).setChecked(true)
 
         invalidateOptionsMenu()
 
@@ -74,17 +72,21 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    override fun onPrepareOptionsMenu(menu: Menu): Boolean {
-        menuInflater.inflate(R.menu.drawer_menu, menu)
-        val navigationView = findViewById(R.id.nav_view) as NavigationView
-        val menu = navigationView.menu
-        val nav_main: MenuItem = menu.findItem(R.id.nav_main)
-        nav_main.setChecked(true)
-//        nav_login.setIcon(R.drawable.ic_remove_red_eye_black_24dp)
-//        nav_login.icon.setColorFilter(Color.parseColor("#ea3479"), PorterDuff.Mode.SRC_ATOP)
-//        Toast.makeText(this, nav_login.icon.toString(), Toast.LENGTH_LONG).show()
-        return super.onPrepareOptionsMenu(menu)
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        return false;
     }
+
+//    override fun onPrepareOptionsMenu(menu: Menu): Boolean {
+//        menuInflater.inflate(R.menu.drawer_menu, menu)
+//        val navigationView = findViewById(R.id.nav_view) as NavigationView
+//        val menu = navigationView.menu
+//        val nav_main: MenuItem = menu.findItem(R.id.nav_main)
+//        nav_main.setChecked(true)
+////        nav_login.setIcon(R.drawable.ic_remove_red_eye_black_24dp)
+////        nav_login.icon.setColorFilter(Color.parseColor("#ea3479"), PorterDuff.Mode.SRC_ATOP)
+////        Toast.makeText(this, nav_login.icon.toString(), Toast.LENGTH_LONG).show()
+//        return onPrepareOptionsMenu(menu)
+//    }
 
     override fun onBackPressed() {
         if(drawer.isDrawerOpen(GravityCompat.START)) {

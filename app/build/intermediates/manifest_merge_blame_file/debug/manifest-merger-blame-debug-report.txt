@@ -25,26 +25,25 @@
 17-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:9:13-58
 18        android:supportsRtl="true"
 18-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:10:13-39
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:11:13-44
-21        <activity
-21-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:12:9-19:20
-22            android:name="com.example.map_project.MainActivity"
-22-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:12:19-47
-23            android:theme="@style/AppTheme.NoActionBar" >
-23-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:13:21-64
-24            <intent-filter>
-24-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:14:13-18:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:15:17-68
-25-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:15:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:17:17-76
-27-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:17:27-74
-28            </intent-filter>
-29        </activity>
-30    </application>
-31
-32</manifest>
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:11:13-44
+20        <activity
+20-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:12:9-19:20
+21            android:name="com.example.map_project.MainActivity"
+21-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:12:19-47
+22            android:theme="@style/AppTheme.NoActionBar" >
+22-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:13:21-64
+23            <intent-filter>
+23-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:14:13-18:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:15:17-68
+24-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:15:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:17:17-76
+26-->C:\Users\Danil\IdeaProjects\map_project\app\src\main\AndroidManifest.xml:17:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>

@@ -812,6 +812,10 @@
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\drawable\\abc_btn_check_material_anim.xml"
     },
     {
+        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\font_quicksand_semi_bold.ttf.flat",
+        "source": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\src\\main\\res\\font\\quicksand_semi_bold.ttf"
+    },
+    {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
@@ -854,6 +858,10 @@
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\467ba8ea1befa739b4edc01cbf7efcc5\\material-1.1.0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_separator.xml.flat",
+        "source": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\src\\main\\res\\drawable\\separator.xml"
     },
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_toggle.xml.flat",
@@ -1320,6 +1328,10 @@
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\467ba8ea1befa739b4edc01cbf7efcc5\\material-1.1.0\\res\\layout\\mtrl_picker_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\font_quicksand_regular.ttf.flat",
+        "source": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\src\\main\\res\\font\\quicksand_regular.ttf"
+    },
+    {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\anim\\abc_fade_out.xml"
     },
@@ -1698,10 +1710,6 @@
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_ic_error.xml.flat",
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\467ba8ea1befa739b4edc01cbf7efcc5\\material-1.1.0\\res\\drawable\\mtrl_ic_error.xml"
-    },
-    {
-        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
-        "source": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
     },
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
@@ -2092,12 +2100,12 @@
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\467ba8ea1befa739b4edc01cbf7efcc5\\material-1.1.0\\res\\layout\\mtrl_picker_header_selection_text.xml"
     },
     {
-        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\color_checkbox_themeable_attribute_color.xml.flat",
-        "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\467ba8ea1befa739b4edc01cbf7efcc5\\material-1.1.0\\res\\color\\checkbox_themeable_attribute_color.xml"
-    },
-    {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\color_checkbox_themeable_attribute_color.xml.flat",
+        "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\467ba8ea1befa739b4edc01cbf7efcc5\\material-1.1.0\\res\\color\\checkbox_themeable_attribute_color.xml"
     },
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -2440,12 +2448,12 @@
         "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\467ba8ea1befa739b4edc01cbf7efcc5\\material-1.1.0\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     },
     {
-        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
-        "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\drawable-v23\\abc_control_background_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_remove_red_eye_black_24dp.xml.flat",
         "source": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\src\\main\\res\\drawable\\ic_remove_red_eye_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
+        "source": "C:\\Users\\Danil\\.gradle\\caches\\transforms-2\\files-2.1\\fbbf58349f1084b8c7cf5cae8e68ad66\\appcompat-1.1.0\\res\\drawable-v23\\abc_control_background_material.xml"
     },
     {
         "merged": "C:\\Users\\Danil\\IdeaProjects\\map_project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",

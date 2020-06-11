@@ -4,7 +4,7 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="236dp"
-              android:theme="@style/ThemeOverlay.AppCompat.Dark" android:paddingTop="70dp">
+              android:theme="@style/ThemeOverlay.AppCompat.Light" android:paddingTop="70dp">
 
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -14,7 +14,6 @@
             android:layout_width="96dp"
             android:layout_height="96dp"
             android:src="@drawable/user_photo_2"
-            app:civ_border_color="#FF000000"
             android:paddingBottom="10dp"
     />
 
